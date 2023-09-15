@@ -6,7 +6,7 @@ import pickle
 import string
 
 mnb = pickle.load(open('mnb.pkl', 'rb'))
-tfidf = pickle.load(open('vectors.pkl', 'rb'))
+tfidf = pickle.load(open('vectors.pkl', 'rb'),encoding='utf-8')
 
 st.title('E-mail Spam Detection')
 
